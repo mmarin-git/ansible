@@ -13,7 +13,7 @@
     export_policy:
     state: present
   tasks:
-  - name: {{ tower_job_template_name }}
+  - name: "{{ tower_job_template_name }}"
     netapp.ontap.na_ontap_volume:
       state: "{{ state }}"
       name: "{{ volname }}"
