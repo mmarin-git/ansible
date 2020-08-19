@@ -1,3 +1,4 @@
+---
 - hosts: localhost
   name: ONTAP
   gather_facts: false
